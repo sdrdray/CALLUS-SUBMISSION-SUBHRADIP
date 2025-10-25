@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "dance-competition-app",
+    "slug": "dance-competition-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#9333ea"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-video"
+    ],
+    "extra": {
+      "SUPABASE_URL": "https://eupquplveptyaeiiqfvi.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1cHF1cGx2ZXB0eWFlaWlxZnZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA4MDE2MTIsImV4cCI6MjA3NjM3NzYxMn0.EQXsUkyEzuz0GHFRhph9Fc8ARGs0617atEYl_6Eowgg"
+    }
+  }
+}
